@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad - Los 6 sonidos misteriosos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #e2e8f0;
+            padding: 30px 20px;
+        }
+
+        .contenedor {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px 35px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #1e293b;
+            text-align: center;
+            border-bottom: 3px solid #f97316;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #475569;
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+
+        .audio-nota {
+            background: #fef3c7;
+            padding: 12px 16px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: bold;
+            border-left: 5px solid #f97316;
+        }
+
+        .actividad {
+            margin-bottom: 35px;
+        }
+
+        .actividad h2 {
+            font-size: 20px;
+            color: #0f172a;
+            margin-bottom: 12px;
+            background: #f1f5f9;
+            padding: 6px 12px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+
+        .instruccion {
+            margin: 12px 0;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 10px 8px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f97316;
+            color: white;
+            font-weight: bold;
+        }
+
+        .preguntas {
+            background: #f8fafc;
+            padding: 16px 20px;
+            border-left: 5px solid #3b82f6;
+            margin: 20px 0;
+        }
+
+        .explicacion {
+            background: #eef2ff;
+            padding: 20px 24px;
+            border-radius: 20px;
+            margin: 20px 0;
+            border: 1px solid #c7d2fe;
+        }
+
+        .explicacion h3 {
+            color: #1e3a8a;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+
+        .propiedades-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .prop-card {
+            background: white;
+            padding: 12px 15px;
+            border-radius: 16px;
+            flex: 1;
+            min-width: 150px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .prop-card strong {
+            display: block;
+            font-size: 18px;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .conclusion {
+            background: #dcfce7;
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 12px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 15px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .contenedor {
+                padding: 0.4in;
+                box-shadow: none;
+                max-width: 100%;
+            }
+            .audio-nota {
+                border: 1px solid #ccc;
+            }
+            th {
+                background: #ccc;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="contenedor">
+    <h1>🎧 Los 6 sonidos misteriosos</h1>
+    <div class="subtitulo">Educación Tecnológica · 1° año B · Proyecto "La música de los materiales"</div>
+
+    <div class="audio-nota">
+        🔊 <strong>Audio de la clase:</strong> El docente va a pasar un audio con <strong>6 golpes</strong> de diferentes materiales.<br>
+        Escuchá con atención. Podemos repetirlo 2 o 3 veces.
+    </div>
+
+    <!-- Actividad 1: Tabla -->
+    <div class="actividad">
+        <h2>📋 Actividad 1: Identificar los materiales</h2>
+        <div class="instruccion">
+            <p>En tu carpeta, copiá la siguiente tabla. Escuchá cada golpe y completala. Podés usar estas palabras para describir: <strong>duración</strong> (corto / medio / largo), <strong>tono</strong> (agudo = alto como timbre / grave = bajo como tambor), <strong>intensidad</strong> (fuerte / suave).</p>
+        </div>
+        <table>
+            <thead>
+                <tr><th>Golpe N°</th><th>¿Qué material creés que es?<br>(madera, metal, plástico, vidrio, cartón, goma)</th><th>Duración</th><th>Tono</th><th>Intensidad</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+                <tr><td>2</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+                <tr><td>3</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+                <tr><td>4</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+                <tr><td>5</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+                <tr><td>6</td><td>_________________</td><td>________</td><td>________</td><td>________</td></tr>
+            </tbody>
+        </table>
+        <div class="instruccion">
+            <p>✏️ Después de completar la tabla, compará tus respuestas con las de un compañero. ¿En qué materiales coincidieron?</p>
+        </div>
+    </div>
+
+    <!-- Actividad 2: Análisis -->
+    <div class="actividad">
+        <h2>🔍 Actividad 2: Analizar los sonidos</h2>
+        <div class="preguntas">
+            <p><strong>Respondé en tu carpeta:</strong></p>
+            <ol style="margin-left: 20px; margin-top: 8px;">
+                <li>¿Cuál de los 6 golpes tuvo <strong>mayor duración</strong> (sonó más tiempo)? ¿De qué material creés que es?</li>
+                <li>¿Cuál tuvo el sonido <strong>más agudo</strong> (más alto)?</li>
+                <li>¿Cuál tuvo el sonido <strong>más grave</strong> (más bajo)?</li>
+                <li>¿Hay algún material que haya sonado <strong>apagado</strong> o <strong>muy corto</strong>? ¿Cuál?</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- EXPLICACIÓN PARA ALUMNOS DE 11 AÑOS -->
+    <div class="actividad">
+        <h2>🧠 ¿Por qué pasa esto? (Leé con atención)</h2>
+        <div class="explicacion">
+            <h3>🎯 La clave está en las propiedades de los materiales</h3>
+            <p>Todos los materiales tienen <strong>tres características</strong> que hacen que suenen diferente cuando los golpeamos. Son como sus "superpoderes".</p>
+
+            <div class="propiedades-grid">
+                <div class="prop-card">
+                    <strong>🔨 Dureza</strong>
+                    <p>Qué tan duro o blando es.<br>Ej: el metal es <strong>muy duro</strong>, la goma es <strong>blanda</strong>.</p>
+                </div>
+                <div class="prop-card">
+                    <strong>🌀 Elasticidad</strong>
+                    <p>Capacidad de vibrar y volver a su forma.<br>Ej: el metal vibra mucho, el cartón casi no vibra.</p>
+                </div>
+                <div class="prop-card">
+                    <strong>⚖️ Densidad</strong>
+                    <p>Qué tan "apretadas" están sus partículas.<br>Ej: el metal es muy denso, la madera es menos densa.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 20px; color: #1e3a8a;">🔊 Entonces, ¿por qué algunos suenan más tiempo?</h3>
+            <p><strong>El sonido es una vibración.</strong> Cuando golpeás algo, el material empieza a vibrar. Esa vibración viaja por el aire hasta tu oído.</p>
+            <p>✅ <strong>Los materiales DUROS y ELÁSTICOS (como el metal o el vidrio)</strong> vibran mucho tiempo. Son como un diapasón: una vez que los golpeás, siguen vibrando. Por eso el sonido <strong>dura más</strong> y suele ser más <strong>agudo</strong>.</p>
+            <p>❌ <strong>Los materiales BLANDOS y POCO ELÁSTICOS (como la goma, el cartón o la madera blanda)</strong> absorben la vibración. No vibran casi nada. Por eso el sonido <strong>dura muy poco</strong> y suele ser más <strong>grave</strong> o apagado.</p>
+            <p>💡 <strong>Resumen fácil:</strong> Si el material es duro y elástico → vibra mucho → sonido LARGO y AGUDO.<br>
+            Si el material es blando o poco elástico → no vibra → sonido CORTO y GRAVE.</p>
+            <p>📌 <strong>Dato curioso:</strong> El sonido viaja más rápido en los materiales densos. Por eso escuchás el golpe del metal casi al instante.</p>
+        </div>
+    </div>
+
+    <!-- Actividad 3: Relacionar -->
+    <div class="actividad">
+        <h2>✍️ Actividad 3: Relacionar lo que escuchaste con las propiedades</h2>
+        <div class="preguntas">
+            <ul style="margin-left: 20px;">
+                <li>¿El material que tuvo el sonido <strong>más largo</strong> (metal o vidrio) es duro o blando? ¿Es elástico o no? _________________</li>
+                <li>¿El material que tuvo el sonido <strong>más corto</strong> (goma o cartón) es duro o blando? _________________</li>
+                <li>¿Por qué creés que el <strong>metal</strong> suena más agudo que la <strong>madera</strong>? (Pista: pensá en la dureza) _________________</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Conclusión final -->
+    <div class="actividad">
+        <h2>📝 Conclusión final (escribila en tu carpeta)</h2>
+        <div class="conclusion">
+            <p><strong>Usando tus palabras, explicá por qué algunos materiales suenan más tiempo que otros.</strong><br>
+            Tratá de usar las palabras: <strong>dureza, elasticidad, vibración, duración</strong>.</p>
+            <p style="border-bottom: 2px solid #15803d; min-height: 60px; margin-top: 12px; padding-bottom: 8px;">_________________________________________________________________</p>
+            <p style="border-bottom: 2px solid #15803d; min-height: 60px; margin-top: 12px; padding-bottom: 8px;">_________________________________________________________________</p>
+            <p style="margin-top: 12px;"><strong>Ejemplo para ayudarte:</strong> <em>"El metal suena más tiempo porque es duro y elástico, entonces vibra mucho. La goma suena poco tiempo porque es blanda y absorbe la vibración."</em></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        Proyecto "La música de los materiales" · Clase del lunes 8 de junio · Audio con 6 sonidos
+    </div>
+</div>
+</body>
+</html>
